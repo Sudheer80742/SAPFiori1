@@ -1,0 +1,16 @@
+<mvc:View controllerName="project4.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <HBox id="hbx" alignItems="Center">
+                <Button text="Frag1" press="onShow1"/>
+                <Button text="Frag2" press="onShow2"/>
+                <Button text="Frag3" press="onShow3"/>
+            </HBox>
+            <VBox id="vboxcon" justifyContent="Center" alignItems="Center">
+                <!-- Fragments will be loaded here -->
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

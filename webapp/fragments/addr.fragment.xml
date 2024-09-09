@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" displayBlock="true">
+    <f:SimpleForm
+        id="myResponsiveForm"
+        layout="ResponsiveGridLayout"
+        title="Contact Information"
+        editable="true">
+        
+        <f:content>
+            <Label text="First Name" />
+            <Input id="firstName" placeholder="Enter First Name" />
+            
+            <Label text="Last Name" />
+            <Input id="lastName" placeholder="Enter Last Name" />
+            
+            <Label text="Email" />
+            <Input id="email" placeholder="Enter Email" />
+            
+            <Label text="Phone Number" />
+            <Input id="phoneNumber" placeholder="Enter Phone Number" />
+        </f:content>
+    </f:SimpleForm>
+</core:FragmentDefinition>

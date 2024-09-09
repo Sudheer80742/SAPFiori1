@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox>
+        <Label text="This is Fragment 2"/>
+        <Input placeholder="Input for Fragment 2"/>
+    </VBox>
+</core:FragmentDefinition>

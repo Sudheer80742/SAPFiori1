@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox>
+        <Label text="This is Fragment 1"/>
+        <Input placeholder="Input for Fragment 1" id="inputField" description="{i18n>helloMsg}"/>
+        <Button text="Submit" press="onSubmit" />
+        <Text id="showText"/>
+    </VBox>
+</core:FragmentDefinition>
